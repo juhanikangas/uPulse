@@ -5,12 +5,12 @@ import time
 from paho.mqtt.client import Client as MQTTClient
 
 # Constants
-APIKEY = "pbZRUi49X48I56oL1Lq8y8NDjq6rPfzX3AQeNo3a"
-CLIENT_ID = "3pjgjdmamlj759te85icf0lucv"
-CLIENT_SECRET = "111fqsli1eo7mejcrlffbklvftcnfl4keoadrdv1o45vt9pndlef"
-TOKEN_URL = "https://kubioscloud.auth.eu-west-1.amazoncognito.com/oauth2/token"
-#BROKER_IP = "192.168.1.253"
-BROKER_IP = "10.0.01.33"
+APIKEY = ""
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+TOKEN_URL = ""
+#BROKER_IP = ""
+BROKER_IP = ""
 SUBSCRIBE_TOPIC = "pico/output"
 PUBLISH_TOPIC = "backend/output"
 JSON_DB_FILE = "kubios_results.json"
